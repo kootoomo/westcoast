@@ -1,0 +1,49 @@
+2021-05-27T11:48:26+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_price_display_mode() on null in C:\wamp64\www\westcoast\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php:422
+Stack trace:
+#0 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce-checkout-add-ons\includes\Frontend\Frontend.php(392): SkyVerge\WooCommerce\Checkout_Add_Ons\Add_Ons\Add_On->get_cost_html('', '')
+#1 C:\wamp64\www\westcoast\wp-includes\class-wp-hook.php(292): SkyVerge\WooCommerce\Checkout_Add_Ons\Frontend\Frontend->add_checkout_fields(Array)
+#2 C:\wamp64\www\westcoast\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#3 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(354): apply_filters('woocommerce_che...', Array)
+#4 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(216): THWCFE_Admin_Utils->get_default_checkout_fields('', false)
+#5 C:\wamp64\www\westcoast\wp-content\plugins in C:\wamp64\www\westcoast\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php on line 422
+
+2021-05-27T11:48:27+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_price_display_mode() on null in C:\wamp64\www\westcoast\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php:422
+Stack trace:
+#0 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce-checkout-add-ons\includes\Frontend\Frontend.php(392): SkyVerge\WooCommerce\Checkout_Add_Ons\Add_Ons\Add_On->get_cost_html('', '')
+#1 C:\wamp64\www\westcoast\wp-includes\class-wp-hook.php(292): SkyVerge\WooCommerce\Checkout_Add_Ons\Frontend\Frontend->add_checkout_fields(Array)
+#2 C:\wamp64\www\westcoast\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#3 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(354): apply_filters('woocommerce_che...', Array)
+#4 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(216): THWCFE_Admin_Utils->get_default_checkout_fields('', false)
+#5 C:\wamp64\www\westcoast\wp-content\plugins in C:\wamp64\www\westcoast\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php on line 422
+
+2021-05-27T11:48:27+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_price_display_mode() on null in C:\wamp64\www\westcoast\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php:422
+Stack trace:
+#0 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce-checkout-add-ons\includes\Frontend\Frontend.php(392): SkyVerge\WooCommerce\Checkout_Add_Ons\Add_Ons\Add_On->get_cost_html('', '')
+#1 C:\wamp64\www\westcoast\wp-includes\class-wp-hook.php(292): SkyVerge\WooCommerce\Checkout_Add_Ons\Frontend\Frontend->add_checkout_fields(Array)
+#2 C:\wamp64\www\westcoast\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#3 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(354): apply_filters('woocommerce_che...', Array)
+#4 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(216): THWCFE_Admin_Utils->get_default_checkout_fields('', false)
+#5 C:\wamp64\www\westcoast\wp-content\plugins in C:\wamp64\www\westcoast\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php on line 422
+
+2021-05-27T20:17:24+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_available_variations() in C:\wamp64\www\westcoast\wp-content\themes\west-coast\woocommerce\single-product\product-image.php:39
+Stack trace:
+#0 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1482): wc_get_template('single-product/...')
+#2 C:\wamp64\www\westcoast\wp-includes\class-wp-hook.php(292): woocommerce_show_product_images('')
+#3 C:\wamp64\www\westcoast\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\wamp64\www\westcoast\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\templates\content-single-product.php(43): do_action('woocommerce_bef...')
+#6 C:\wamp64\www\westcoast\wp-includes\template.php(732): require('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-core in C:\wamp64\www\westcoast\wp-content\themes\west-coast\woocommerce\single-product\product-image.php on line 39
+
+2021-05-27T20:17:30+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_available_variations() in C:\wamp64\www\westcoast\wp-content\themes\west-coast\woocommerce\single-product\product-image.php:39
+Stack trace:
+#0 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1482): wc_get_template('single-product/...')
+#2 C:\wamp64\www\westcoast\wp-includes\class-wp-hook.php(292): woocommerce_show_product_images('')
+#3 C:\wamp64\www\westcoast\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\wamp64\www\westcoast\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\templates\content-single-product.php(43): do_action('woocommerce_bef...')
+#6 C:\wamp64\www\westcoast\wp-includes\template.php(732): require('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-core in C:\wamp64\www\westcoast\wp-content\themes\west-coast\woocommerce\single-product\product-image.php on line 39
+

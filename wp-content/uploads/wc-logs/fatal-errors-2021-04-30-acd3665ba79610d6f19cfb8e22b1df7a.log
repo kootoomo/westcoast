@@ -1,0 +1,46 @@
+2021-04-30T21:59:33+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_available_variations() in C:\wamp64\www\westcoast\wp-content\themes\west-coast\woocommerce\single-product\product-image.php:85
+Stack trace:
+#0 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1482): wc_get_template('single-product/...')
+#2 C:\wamp64\www\westcoast\wp-includes\class-wp-hook.php(292): woocommerce_show_product_images('')
+#3 C:\wamp64\www\westcoast\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\wamp64\www\westcoast\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\templates\content-single-product.php(43): do_action('woocommerce_bef...')
+#6 C:\wamp64\www\westcoast\wp-includes\template.php(732): require('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-core in C:\wamp64\www\westcoast\wp-content\themes\west-coast\woocommerce\single-product\product-image.php on line 85
+
+2021-04-30T22:00:23+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_available_variations() in C:\wamp64\www\westcoast\wp-content\themes\west-coast\woocommerce\single-product\product-image.php:85
+Stack trace:
+#0 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1482): wc_get_template('single-product/...')
+#2 C:\wamp64\www\westcoast\wp-includes\class-wp-hook.php(292): woocommerce_show_product_images('')
+#3 C:\wamp64\www\westcoast\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\wamp64\www\westcoast\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\templates\content-single-product.php(43): do_action('woocommerce_bef...')
+#6 C:\wamp64\www\westcoast\wp-includes\template.php(732): require('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-core in C:\wamp64\www\westcoast\wp-content\themes\west-coast\woocommerce\single-product\product-image.php on line 85
+
+2021-04-30T22:01:01+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_available_variations() in C:\wamp64\www\westcoast\wp-content\themes\west-coast\woocommerce\single-product\product-image.php:85
+Stack trace:
+#0 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1482): wc_get_template('single-product/...')
+#2 C:\wamp64\www\westcoast\wp-includes\class-wp-hook.php(292): woocommerce_show_product_images('')
+#3 C:\wamp64\www\westcoast\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\wamp64\www\westcoast\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\templates\content-single-product.php(43): do_action('woocommerce_bef...')
+#6 C:\wamp64\www\westcoast\wp-includes\template.php(732): require('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-core in C:\wamp64\www\westcoast\wp-content\themes\west-coast\woocommerce\single-product\product-image.php on line 85
+
+2021-04-30T22:01:03+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_available_variations() in C:\wamp64\www\westcoast\wp-content\themes\west-coast\woocommerce\single-product\product-image.php:85
+Stack trace:
+#0 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1482): wc_get_template('single-product/...')
+#2 C:\wamp64\www\westcoast\wp-includes\class-wp-hook.php(292): woocommerce_show_product_images('')
+#3 C:\wamp64\www\westcoast\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#4 C:\wamp64\www\westcoast\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\templates\content-single-product.php(43): do_action('woocommerce_bef...')
+#6 C:\wamp64\www\westcoast\wp-includes\template.php(732): require('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-core in C:\wamp64\www\westcoast\wp-content\themes\west-coast\woocommerce\single-product\product-image.php on line 85
+
+2021-04-30T22:05:28+00:00 CRITICAL syntax error, unexpected end of file in C:\wamp64\www\westcoast\wp-content\themes\west-coast\woocommerce\single-product\product-image.php on line 163
+

@@ -1,0 +1,15 @@
+2021-05-13T17:55:35+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in C:\wamp64\www\westcoast\wp-content\themes\west-coast\woocommerce\single-product\title.php:25
+Stack trace:
+#0 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1553): wc_get_template('single-product/...')
+#2 C:\wamp64\www\westcoast\wp-includes\class-wp-hook.php(292): woocommerce_template_single_title('')
+#3 C:\wamp64\www\westcoast\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 C:\wamp64\www\westcoast\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\templates\content-single-product.php(60): do_action('woocommerce_sin...')
+#6 C:\wamp64\www\westcoast\wp-includes\template.php(732): require('C:\\wamp64\\www\\w...')
+#7 C:\wamp64\www\westcoast\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template( in C:\wamp64\www\westcoast\wp-content\themes\west-coast\woocommerce\single-product\title.php on line 25
+
+2021-05-13T17:57:17+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in C:\wamp64\www\westcoast\wp-content\themes\west-coast\woocommerce\single-product\title.php on line 62
+
+2021-05-13T18:08:46+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\wamp64\www\westcoast\wp-includes\Requests\Transport\cURL.php on line 162
+
